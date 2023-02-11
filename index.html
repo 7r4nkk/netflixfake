@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <section>
+        <header id="header">
+            <div class="containerHeader">
+                <div class="logo">
+                    <a href="#">
+                        <img src="./img/logo.png" alt="">
+                    </a>
+                </div>
+                <div class="menu" id="menu">
+                    <nav>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">TV Shows</a></li>
+                            <li><a href="#">Movies</a></li>
+                            <li><a href="#">Latest</a></li>
+                            <li><a href="#">My List</a></li>
+                        </ul>
+                    </nav>
+                    
+                </div>
+                <div class="bars__menu" id="bars">
+                    <span class="line1__bars-menu" id="bar1" ></span>
+                    <span class="line2__bars-menu" id="bar2"></span>
+                    <span class="line3__bars-menu" id="bar3"></span>
+                </div>
+                <div class="search" id="search">
+                    <input type="text" placeholder="Search">
+                </div>
+            </div>
+        </header>
+        <section class="banner">
+            <img src="./img/tms.jpg" alt="" class="bg">
+            <span class="shade"></span>
+            <div class="content">
+                <img src="./img/logoletras.png" alt="" class="movieTitle">
+                <h4>
+                    <span>2022</span>
+                    <span><i>16+</i></span>
+                    <span>6 Seasons</span>
+                    <span>Series</span>
+                </h4>
+                <p>
+                    Peaky Blinders is a British period crime drama television series created by Steven Knight. Set in Birmingham, England, it follows the exploits of the Peaky Blinders crime gang in the direct aftermath of the First World War. The fictional gang is loosely based on a real urban youth gang of the same name who were active in the city from the 1880s to the 1910s.
+                </p>
+                <div class="buttons">
+                    <a href="#">Play</a>
+                    <a href="#">My List</a>
+                </div>
+            </div>
+            
+            <a href="#" class="play" id="play"><img src="./img/play.png" alt="">Watch trailer</a>
+        </section>
+        <section class="trailer" id="trailer">
+            <video src="./img/trailer.mp4" controls id="video"></video>
+            <img src="./img/close.png" alt="" class="close" id="close">
+        </section>
+    </section>
+
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
