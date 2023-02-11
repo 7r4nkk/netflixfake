@@ -26,6 +26,8 @@ play.addEventListener('click', function(){
 });
 close.addEventListener('click', function(){
     trailer.classList.remove('videoActive');
+    video.pause();
+    video.currentTime=0;
 });
 
 
